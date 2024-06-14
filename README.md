@@ -16,12 +16,18 @@ https://platform.openai.com
 
 ## VectorDB
 
-- [Chroma](https://www.trychroma.com/)
-- [sqlite-vec](https://github.com/asg017/sqlite-vec)
+[Chroma](https://www.trychroma.com/)
 
-## GraphDB
+I want to use Chroma and my original GraphDB to achive my goal for Data Driven Marketing.
 
-I have already developed GraphDB with SQLite and networks on my own at work.
+## My original GraphDB
+
+I have already developed GraphDB with SQLite and networks on my own at work:
+- My original schema to store graph entities (nodes).
+- My original SQL to generate edges on a certain condition (i.e., dependency between nodes).
+- Run Graph Theory on the generated network with networkx.
+
+The GraphDB is very useful for my work, especially useful for automatic market segmentation.
 
 ## Reference
 
