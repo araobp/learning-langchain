@@ -6,6 +6,8 @@ In the past half year, I have learned NLP with spaCy and SQLite. I am using the 
 
 My company is marketing LLM ["NEC cotomi"](https://www.nec.com/en/press/202404/global_20240424_01.html), so I learn LLM with my NLP skill in this project as a marketer.
 
+I am a fun of SQLite, so I study in this project how I can use SQLite as a part of RAG.
+
 ## OpenAI API
 
 https://platform.openai.com
