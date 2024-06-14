@@ -22,6 +22,13 @@ My final goal is to realize Data Driven Marketing framework with NLP and LLM for
 
 https://platform.openai.com
 
+## Embeddings
+
+I use both OpenAI and spaCy to generate embeddings.
+
+spaCy's "en-core-news-lg" seems to output embeddings the size of 300 dimensions.
+On the other hand, "en-core-news-trf" does not seem to support embeddings.
+
 ## VectorDB
 
 [Chroma](https://www.trychroma.com/)
