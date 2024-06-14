@@ -31,6 +31,8 @@ I have already developed GraphDB with SQLite and networks on my own at work:
 
 The GraphDB is very useful for my work, especially useful for automatic market segmentation.
 
+The GraphDB is not included in this project.
+
 ## Reference
 
 https://github.com/harukaxq/langchain-book
