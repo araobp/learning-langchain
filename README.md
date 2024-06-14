@@ -24,7 +24,7 @@ I want to use Chroma and my original GraphDB to achive my goal for Data Driven M
 
 ## My original GraphDB
 
-I have already developed GraphDB with SQLite and networks on my own at work:
+I have already developed GraphDB with SQLite and networkx on my own at work:
 - My original schema to store graph entities (nodes).
 - My original SQL to generate edges on a certain condition (i.e., dependency between nodes).
 - Run Graph Theory on the generated network with networkx.
