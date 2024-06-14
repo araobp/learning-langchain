@@ -41,5 +41,5 @@ The GraphDB is not included in this project.
 
 ## Reference
 
-https://github.com/harukaxq/langchain-book
-
+- [LangChain完全入門](https://github.com/harukaxq/langchain-book)
+- [Chainlit](https://github.com/Chainlit/chainlit)
