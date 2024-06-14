@@ -10,6 +10,15 @@ My company is marketing LLM ["NEC cotomi"](https://www.nec.com/en/press/202404/g
 
 https://platform.openai.com
 
+## VectorDB
+
+- [Chroma](https://www.trychroma.com/)
+- [sqlite-vec](https://github.com/asg017/sqlite-vec)
+
+## GraphDB
+
+I have already developed GraphDB with SQLite and networks on my own at work.
+
 ## Reference
 
 https://github.com/harukaxq/langchain-book
