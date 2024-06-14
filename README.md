@@ -8,7 +8,7 @@ My company is marketing LLM ["NEC cotomi"](https://www.nec.com/en/press/202404/g
 
 ## Project Goal
 
-I am a fun of SQLite, so I study in this project how I can use SQLite as a part of RAG.
+I am a fan of SQLite, so I study in this project how I can use SQLite as a part of RAG.
 
 ## OpenAI API
 
