@@ -1,5 +1,9 @@
 # Learning LangChain
 
+## My bible
+
+[Marketing 5.0: Technology for Humanity](https://www.wiley.com/en-br/Marketing+5.0%3A+Technology+for+Humanity-p-9781119668510)
+
 ## Background and Motivation
 
 In the past half year, I have learned NLP with spaCy and SQLite. I am using the NLP skill in my work for marketing these days.
