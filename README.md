@@ -10,7 +10,7 @@ My company is marketing LLM ["NEC cotomi"](https://www.nec.com/en/press/202404/g
 
 I am a fan of SQLite, so I study in this project how I can use SQLite as a part of RAG.
 
-My final goal is to realize Data Driven Marketing framework with NLP and LLM for promoting LLM in the market.
+My final goal is to realize Data Driven Marketing framework with NLP and LLM for promoting LLM in the market. The framework will not be included in this project.
 
 ## OpenAI API
 
