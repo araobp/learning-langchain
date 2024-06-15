@@ -1,16 +1,14 @@
-from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.embeddings.spacy_embeddings import SpacyEmbeddings
 from langchain_community.vectorstores import Chroma
 
-embeddings = OpenAIEmbeddings(
-  model = "text-embedding-ada-002"
-)
+embedder = SpacyEmbeddings(model_name="ja_core_news_lg")
 
 database = Chroma(
   persist_directory="./embeddings.db",
-  embedding_function=embeddings
+  embedding_function=embedder
 )
 
-QUERY = "飛行者に許される最高の高度は？"
+QUERY = "飛行者の最高速度は？"
 
 documents = database.similarity_search(QUERY)
 

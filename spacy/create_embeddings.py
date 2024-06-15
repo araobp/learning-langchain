@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import PyMuPDFLoader
-from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_text_splitters import SpacyTextSplitter
+from langchain_community.embeddings.spacy_embeddings import SpacyEmbeddings
 
 loader = PyMuPDFLoader("./sample.pdf")
 documents = loader.load()
@@ -13,7 +13,7 @@ text_spliter = SpacyTextSplitter(
 
 splitted_documents = text_spliter.split_documents(documents)
 
-embedder = OpenAIEmbeddings(model="text-embedding-ada-002")
+embedder = SpacyEmbeddings(model_name="ja_core_news_lg")
 
 database = Chroma(
   persist_directory="./embeddings.db",
