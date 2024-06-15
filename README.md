@@ -18,6 +18,13 @@ I am a fan of SQLite, so I study in this project how I can use SQLite as a part 
 
 My final goal is to realize Data Driven Marketing framework with NLP and LLM for promoting LLM in the market. The framework will not be included in this project.
 
+## Code
+
+### [keyphrase](./keyphrase)
+
+Use ChromaDB for keyphrase similality search with textacy.
+This code does not use LangChain at all.
+
 ## OpenAI API
 
 https://platform.openai.com
