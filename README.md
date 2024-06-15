@@ -69,3 +69,4 @@ The GraphDB is not included in this project.
 
 - [LangChain完全入門](https://github.com/harukaxq/langchain-book)
 - [Chainlit](https://github.com/Chainlit/chainlit)
+- [ローカル で Llama 2 + LangChain の RetrievalQA を試す](https://note.com/npaka/n/n3164e8b24539)
