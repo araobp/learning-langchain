@@ -61,7 +61,7 @@ I have already developed GraphDB with SQLite and networkx on my own at work:
 - My original SQL to generate edges on a certain condition (i.e., dependency between nodes).
 - Run Graph Theory on the generated network with networkx.
 
-The GraphDB is very useful for my work, especially useful for automatic market segmentation.
+The GraphDB is very useful for my work. I am going to use the GraphDB with ChromaDB for automatic market segmentation.
 
 The GraphDB is not included in this project.
 
