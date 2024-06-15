@@ -20,6 +20,8 @@ I am a fan of SQLite, so I study in this project how I can use SQLite as a part 
 
 My final goal is to realize Data Driven Marketing framework with NLP and LLM for promoting LLM in the market. The framework will not be included in this project.
 
+My another goal is to run a tiny LLM (Llama) with LangChain locally to simulate a on-premise environment where very high security and privacy is required.
+
 ## Code
 
 ### [rag](./rag)
@@ -71,4 +73,5 @@ The GraphDB is not included in this project.
 
 - [LangChain完全入門](https://github.com/harukaxq/langchain-book)
 - [Chainlit](https://github.com/Chainlit/chainlit)
+- [Run LLMs locally](https://python.langchain.com/v0.1/docs/guides/development/local_llms/)
 - [ローカル で Llama 2 + LangChain の RetrievalQA を試す](https://note.com/npaka/n/n3164e8b24539)
