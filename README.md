@@ -72,6 +72,7 @@ The GraphDB is not included in this project.
 ## Reference
 
 - [LangChain完全入門](https://github.com/harukaxq/langchain-book)
+- [LangChain with NetworkX](https://python.langchain.com/v0.1/docs/integrations/graphs/networkx/)
 - [Chainlit](https://github.com/Chainlit/chainlit)
 - [Run LLMs locally](https://python.langchain.com/v0.1/docs/guides/development/local_llms/)
 - [ローカル で Llama 2 + LangChain の RetrievalQA を試す](https://note.com/npaka/n/n3164e8b24539)
