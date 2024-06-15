@@ -20,6 +20,10 @@ My final goal is to realize Data Driven Marketing framework with NLP and LLM for
 
 ## Code
 
+### [spacy](./spacy)
+
+Test spaCy's built-in embedding capabilities.
+
 ### [keyphrase](./keyphrase)
 
 Use ChromaDB for keyphrase similality search with textacy.
