@@ -20,6 +20,10 @@ My final goal is to realize Data Driven Marketing framework with NLP and LLM for
 
 ## Code
 
+## [rag](./rag)
+
+Test LangChain's RAG capabilities with OpenAI.
+
 ### [spacy](./spacy)
 
 Test spaCy's built-in embedding capabilities.
