@@ -31,7 +31,7 @@ Test spaCy's built-in embedding capabilities.
 ### [keyphrase](./keyphrase)
 
 Use ChromaDB for keyphrase similality search with textacy.
-This code does not use LangChain at all.
+This code use neither LangChain nor OpenAI.
 
 ## OpenAI API
 
@@ -39,10 +39,9 @@ https://platform.openai.com
 
 ## Embeddings
 
-I use both OpenAI and spaCy to generate embeddings.
+I test OpenAI, spaCy and Sentence Transformers to generate embeddings.
 
-spaCy's "en-core-web-lg" and ""ja-core-news-lg"" seems to output embeddings the size of 300 dimensions.
-On the other hand, "en-core-web-trf" does not seem to support embeddings.
+Note: spaCy's "en-core-web-lg" and ""ja-core-news-lg"" seems to output embeddings the size of 300 dimensions. On the other hand, "en-core-web-trf" does not seem to support embeddings.
 
 ## VectorDB
 
