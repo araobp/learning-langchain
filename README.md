@@ -63,7 +63,7 @@ I want to use Chroma and my original GraphDB to achive my goal for Data Driven M
 I have already developed GraphDB with SQLite and networkx on my own at work:
 - My original schema to store graph entities (nodes).
 - My original SQL to dynamically generate triplets on a certain condition (i.e., edges between nodes with dependencies).
-- Run Graph Theory on the generated network with networkx.
+- Run Graph Theory on the generated network to generate a sub graph.
 
 The GraphDB is very useful for my work. I am going to use the GraphDB with ChromaDB for automatic market segmentation.
 
