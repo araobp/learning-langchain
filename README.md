@@ -1,5 +1,7 @@
 # Learning LangChain
 
+(Work in progress)
+
 ## My bible
 
 [Marketing 5.0: Technology for Humanity](https://www.wiley.com/en-br/Marketing+5.0%3A+Technology+for+Humanity-p-9781119668510)
