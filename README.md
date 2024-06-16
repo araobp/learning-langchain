@@ -79,13 +79,13 @@ The GraphDB is not included in this project.
 
 ## Reference
 
-- [LangChain完全入門](https://github.com/harukaxq/langchain-book)
 - [LangChain with NetworkX](https://python.langchain.com/v0.1/docs/integrations/graphs/networkx/)
 - [Chainlit](https://github.com/Chainlit/chainlit)
 - [Run LLMs locally](https://python.langchain.com/v0.1/docs/guides/development/local_llms/)
 
-## 日本語記事参考
+## 参考
 
+- [LangChain完全入門](https://github.com/harukaxq/langchain-book)
 - [【考察】RAGはマニュアル人間で、ファインチューニングは新卒育成？](https://leapwell.co.jp/tech_column/blog-finetuning-vs-rag) ==> VERY GOOD!
 - [「コンテンツの構造化が大変！?」顧客接点へのAI導入の課題はRAG技術で解決](https://blog.cba-japan.com/rag/) ==> 私が日々オーバーワークになっている理由がこれ。構造化が異常に大変！
 - [ローカル で Llama 2 + LangChain の RetrievalQA を試す](https://note.com/npaka/n/n3164e8b24539)
