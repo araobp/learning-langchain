@@ -58,14 +58,14 @@ Note: spaCy's "en-core-web-lg" and ""ja-core-news-lg"" seems to output embedding
 
 I want to use Chroma and my original GraphDB to achive my goal for Data Driven Marketing.
 
-## My original GraphDB
+## My original GraphDB (private project)
 
-I have already developed GraphDB with SQLite and networkx on my own at work:
+In a real world, SQL DB needs to coexist with GraphDB and VectorDB to meet various demands from marketing teams.
+
+I have already developed GraphDB with SQLite and networkx on my own:
 - My original schema to store graph entities (nodes).
 - My original SQL to dynamically generate triplets on a certain condition (i.e., edges between nodes with dependencies).
 - Run Graph Theory on the generated network to generate a sub graph.
-
-The GraphDB is very useful for my work. I am going to use the GraphDB with ChromaDB for automatic market segmentation.
 
 ```
      Network Graph A    Network Graph C
