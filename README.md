@@ -8,7 +8,7 @@ As "Marketing 5.0" says, NLP (with LLM) is a core part of Data Driven Marketing.
 
 ## Background and Motivation
 
-I used to be a nework engineer: IP Telephony, routers and switches. I also worked on SDN that ran on a kind of Graph DB.
+I used to be a network engineer: IP Telephony, routers and switches. I also worked on SDN that ran on a kind of Graph DB.
 
 In the past half year, I have learned NLP with spaCy and SQLite. I am using the NLP skill in my work for marketing these days.
 
