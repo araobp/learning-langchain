@@ -67,6 +67,12 @@ I have already developed GraphDB with SQLite and networkx on my own at work:
 
 The GraphDB is very useful for my work. I am going to use the GraphDB with ChromaDB for automatic market segmentation.
 
+```
+     Network Graph A    Network Graph C
+               |           |   <- - - Connect networks with semantic search
+              Network Graph B
+```
+
 The GraphDB is not included in this project.
 
 ## Reference
