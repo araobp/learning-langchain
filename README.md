@@ -71,7 +71,7 @@ I have already developed GraphDB with SQLite and networkx on my own:
 
 ```
      Network Graph A    Network Graph C
-               |           |   <- - - Connect networks with semantic search
+               |           |   <- - - Connect networks where similality distance is smaller than the threshold
               Network Graph B
 ```
 
