@@ -79,6 +79,7 @@ The GraphDB is not included in this project.
 
 ## Reference
 
+- [ChromaDB](https://www.trychroma.com/)
 - [LangChain with NetworkX](https://python.langchain.com/v0.1/docs/integrations/graphs/networkx/)
 - [Chainlit](https://github.com/Chainlit/chainlit)
 - [Run LLMs locally](https://python.langchain.com/v0.1/docs/guides/development/local_llms/)
