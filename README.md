@@ -46,7 +46,8 @@ https://platform.openai.com
 
 I test OpenAI, spaCy and Sentence Transformers to generate embeddings.
 
-Note: spaCy's "en-core-web-lg" and ""ja-core-news-lg"" seems to output embeddings the size of 300 dimensions. On the other hand, "en-core-web-trf" does not seem to support embeddings.
+Note: spaCy's "en-core-web-lg" and ""ja-core-news-lg"" seems to output embeddings the size of 300 dimensions.
+On the other hand, "en-core-web-trf" does not seem to support embeddings because of an interoperability problem with the other packages.
 
 ## VectorDB
 
