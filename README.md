@@ -10,19 +10,13 @@ As "Marketing 5.0" says, NLP (with LLM) is a core part of Data Driven Marketing.
 
 ## Background and Motivation
 
-I used to be a network engineer: IP Telephony, routers and switches. I also worked on SDN that ran on a kind of Graph DB.
-
 In the past half year, I have learned NLP with spaCy and SQLite. I am using the NLP skill in my work for marketing these days.
-
-My company has started marketing LLM ["NEC cotomi"](https://www.nec.com/en/press/202404/global_20240424_01.html), so I have also started learning LLM with my NLP skill in this project as a marketer.
 
 ## Project Goal
 
 I am a fan of SQLite, so I study in this project how I can use SQLite as a part of RAG.
 
-My final goal is to realize Data Driven Marketing framework with NLP and LLM for promoting LLM in the market. The framework will not be included in this project.
-
-My another goal is to run a tiny LLM (Llama) with LangChain locally to simulate a on-premise environment where very high security and privacy is required.
+My final goal is to realize Data Driven Marketing framework with NLP and LLM. The framework will not be included in this project.
 
 ## Code
 
@@ -52,13 +46,16 @@ https://platform.openai.com
 
 I test OpenAI, spaCy and Sentence Transformers to generate embeddings.
 
-Note: spaCy's "en-core-web-lg" and ""ja-core-news-lg"" seems to output embeddings the size of 300 dimensions. On the other hand, "en-core-web-trf" does not seem to support embeddings.
+Note: spaCy's "en-core-web-lg" and ""ja-core-news-lg"" seems to output embeddings the size of 300 dimensions.
+On the other hand, "en-core-web-trf" does not seem to support embeddings because of an interoperability problem with the other packages.
 
 ## VectorDB
 
 [Chroma](https://www.trychroma.com/)
 
-I want to use Chroma and my original GraphDB to achive my goal for Data Driven Marketing.
+I use Chroma and my original GraphDB to achive my goal for Data Driven Marketing. 
+
+I am also interested in sqlite-vec which is more suitable for my gloal. sqlite-vec is still in an alpha version, so I use Chroma for the time being.
 
 ## My original GraphDB (private project)
 
@@ -71,14 +68,27 @@ I have already developed GraphDB with SQLite and networkx on my own:
 
 ```
      Network Graph A    Network Graph C
-               |           |   <- - - Connect networks with semantic search
+               |           |   <- - - Connect networks where similality distance is smaller than the threshold
               Network Graph B
+
+```
+
+```
+          Database stack
+
+[            NetworkX            ]  ==> Graph theory for knowledge graph
+[           Shim Layer           ]  ==> Dynamic knowledge graph generation
+[SQLite database][Chroma database]  ==> SQL and Semantic Search
+[            SQLite3             ]  ==> Base
+
 ```
 
 The GraphDB is not included in this project.
 
 ## Reference
 
+- [ChromaDB](https://www.trychroma.com/)
+- [sqlite-vec](https://github.com/asg017/sqlite-vec)
 - [LangChain with NetworkX](https://python.langchain.com/v0.1/docs/integrations/graphs/networkx/)
 - [Chainlit](https://github.com/Chainlit/chainlit)
 - [Run LLMs locally](https://python.langchain.com/v0.1/docs/guides/development/local_llms/)
