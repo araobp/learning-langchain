@@ -38,6 +38,10 @@ Use ChromaDB for keyphrase similality search with textacy. This code use neither
 
 I conclude that Sentence Transformers are useful in my work.
 
+### [LangChain](./lang_chain)
+
+Since the APIs changes frequently, I have started learning LangChain on this site in Aug 2024.
+
 ## OpenAI API
 
 https://platform.openai.com
