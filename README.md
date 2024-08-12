@@ -2,6 +2,10 @@
 
 (Work in progress)
 
+## OpenAI API Usage
+
+https://platform.openai.com/organization/usage
+
 ## My bible
 
 [Marketing 5.0: Technology for Humanity](https://www.wiley.com/en-br/Marketing+5.0%3A+Technology+for+Humanity-p-9781119668510)
@@ -37,6 +41,10 @@ I conclude that the built-in embedding capabilities are not useful in my work.
 Use ChromaDB for keyphrase similality search with textacy. This code use neither LangChain nor OpenAI.
 
 I conclude that Sentence Transformers are useful in my work.
+
+### [LangChain](./lang_chain)
+
+Since the APIs changes frequently, I have started learning LangChain on this site in Aug 2024.
 
 ## OpenAI API
 
@@ -96,6 +104,7 @@ The GraphDB is not included in this project.
 ## 参考
 
 - [LangChain完全入門](https://github.com/harukaxq/langchain-book) ==> NLPのスキルあればサッとRAGを理解出来る。そういう意味で良書。
+- [AIビジネスチャンス　技術動向と事例に学ぶ新たな価値を生成する攻めの戦略（できるビジネス）](https://book.impress.co.jp/books/1123101128) ==> 頭の中を整理するのに良さそうなので書店で購入した。
 - [【考察】RAGはマニュアル人間で、ファインチューニングは新卒育成？](https://leapwell.co.jp/tech_column/blog-finetuning-vs-rag) ==> VERY GOOD!マーケ部門で、どのようにRAG向け文章を準備したらよいか？何に適しているか？ヒントを与えてくれる。
 - [「コンテンツの構造化が大変！?」顧客接点へのAI導入の課題はRAG技術で解決](https://blog.cba-japan.com/rag/) ==> 私が日々オーバーワークになっている理由がこれ。構造化が異常に大変！
 - [ローカル で Llama 2 + LangChain の RetrievalQA を試す](https://note.com/npaka/n/n3164e8b24539)
