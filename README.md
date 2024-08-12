@@ -100,6 +100,7 @@ The GraphDB is not included in this project.
 ## 参考
 
 - [LangChain完全入門](https://github.com/harukaxq/langchain-book) ==> NLPのスキルあればサッとRAGを理解出来る。そういう意味で良書。
+- [AIビジネスチャンス　技術動向と事例に学ぶ新たな価値を生成する攻めの戦略（できるビジネス）](https://book.impress.co.jp/books/1123101128) ==> 頭の中を整理するのに良さそうなので書店で購入した。
 - [【考察】RAGはマニュアル人間で、ファインチューニングは新卒育成？](https://leapwell.co.jp/tech_column/blog-finetuning-vs-rag) ==> VERY GOOD!マーケ部門で、どのようにRAG向け文章を準備したらよいか？何に適しているか？ヒントを与えてくれる。
 - [「コンテンツの構造化が大変！?」顧客接点へのAI導入の課題はRAG技術で解決](https://blog.cba-japan.com/rag/) ==> 私が日々オーバーワークになっている理由がこれ。構造化が異常に大変！
 - [ローカル で Llama 2 + LangChain の RetrievalQA を試す](https://note.com/npaka/n/n3164e8b24539)
