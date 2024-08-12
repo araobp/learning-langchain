@@ -2,6 +2,10 @@
 
 (Work in progress)
 
+## OpenAI API Usage
+
+https://platform.openai.com/organization/usage
+
 ## My bible
 
 [Marketing 5.0: Technology for Humanity](https://www.wiley.com/en-br/Marketing+5.0%3A+Technology+for+Humanity-p-9781119668510)
