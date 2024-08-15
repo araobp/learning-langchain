@@ -24,6 +24,8 @@ My final goal is to realize Data Driven Marketing framework with NLP and LLM. Th
 
 ## Code
 
+### [LangChain完全入門のコード部分を更新][./basic]
+
 ### [rag](./rag)
 
 Test LangChain's RAG capabilities with OpenAI.
