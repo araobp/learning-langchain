@@ -1,6 +1,6 @@
 # Learning LangChain
 
-(Work in progress)
+(I am finishing this project, because I am in favour of the OpenAI's APIs and a light-weight vector DB such as [sqlite-vec](https://github.com/asg017/sqlite-vec), rather than LangChain.
 
 ## OpenAI API Usage
 
